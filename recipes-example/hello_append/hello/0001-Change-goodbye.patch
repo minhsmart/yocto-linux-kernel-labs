@@ -1,0 +1,25 @@
+From 48aa7c6964196bf565f00b3364da57c33781eb9d Mon Sep 17 00:00:00 2001
+From: Nguyen Anh Minh <minh.nguyen-anh@banvien.com.vn>
+Date: Thu, 2 Nov 2023 13:58:49 +0700
+Subject: [PATCH] Change goodbye
+
+---
+ helloworld.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/helloworld.c b/helloworld.c
+index e53ec2f..9297072 100644
+--- a/helloworld.c
++++ b/helloworld.c
+@@ -3,5 +3,7 @@
+ 
+ int main() { 
+     printf("Hello World Minh, Created Bitbake recipe successfully\n"); 
++
++    printf("Goodbye Minh, Modify recipe successfully\n");
+ return 0;
+ }
+\ No newline at end of file
+-- 
+2.25.1
+
